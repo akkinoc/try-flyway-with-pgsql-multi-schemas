@@ -4,6 +4,7 @@
 
 - Docker で PostgreSQL を複数スキーマで起動。
 - Flyway (Gradle Kotlin DSL) による複数スキーマのデータベースマイグレーション。
+- jOOQ で複数スキーマのコード生成。
 
 ## PostgreSQL 起動
 
@@ -22,3 +23,12 @@ gradle flywayClean flywayMigrate flywayInfo
 
 - Flyway のクリーンマイグレーションが実行される。
 - 各スキーマにテーブルが作成できる。
+
+## jOOQ コード生成
+
+```sh
+gradle jooqCodegen
+```
+
+- jOOQ のコードが生成される。
+- jOOQ コードにはスキーマ指定も含まれている。
