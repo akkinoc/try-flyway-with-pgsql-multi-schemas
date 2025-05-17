@@ -7,9 +7,9 @@
 
 ## PostgreSQL 起動
 
-とりあえず起動。
-まだ public スキーマしか作られない。
-
 ```sh
 docker compose -f ./docker/docker-compose.yml up --wait -d
 ```
+
+- PostgreSQL が起動される。
+- 複数スキーマが作成できる。

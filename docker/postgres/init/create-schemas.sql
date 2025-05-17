@@ -1,0 +1,3 @@
+CREATE SCHEMA schema1;
+CREATE SCHEMA schema2;
+CREATE SCHEMA schema3;
